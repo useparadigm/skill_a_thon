@@ -29,6 +29,7 @@ Three [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/slash-
 
 | Skill | What it does |
 |-------|-------------|
+| `/paradigm` | Get started with Paradigm — understand what it sees, how to use it, setup |
 | `/blast-radius` | Full pipeline — propagation map + severity assessment + action plan |
 | `/impact-report` | Quick scan — just the blast radius map, no analysis |
 | `/deep-check` | Verify one finding — read the actual consumer/producer code |

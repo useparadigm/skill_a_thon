@@ -1,8 +1,8 @@
 # Paradigm — Understand Your Code Across the Entire System
 
-You have access to **Paradigm** via MCP — a code analysis platform that maps your codebase: call graphs, cross-file dependencies, remote calls, database access, and more.
+You have access to **Paradigm** via MCP — a code analysis platform that gives you (and your AI agents) a complete picture of your codebase architecture: call graphs, cross-file dependencies, remote calls, database access, and how it all connects.
 
-Use it whenever you need to understand code beyond the file you're looking at.
+The core problem: your tools only see one file, one repo, one language at a time. Paradigm sees the whole system — every call chain, every service boundary, every shared database table. It lets you understand the real architecture of your code, and it gives AI agents the same understanding so they stop making changes that look safe locally but break things across service boundaries.
 
 ## When to use this
 
@@ -95,7 +95,7 @@ Paradigm indexes your repository and builds a code graph in Neo4j:
 
 When you call `analyze_task`, it searches this graph — keyword matching + semantic search — scores results by relevance and connectivity, then computes the propagation map from the top matches. The output is deterministic: based on the actual code graph, not guesses.
 
-You can also explore the architecture visually at [useparadigm.app](https://useparadigm.app) — browse call graphs, module dependencies, and cross-system connections in the web UI.
+You can also explore the full architecture visually at [useparadigm.app](https://useparadigm.app) — browse call graphs, module structures, and cross-system connections in the web UI. Same underlying graph, visual interface for when you want to see the big picture yourself rather than query it through an agent.
 
 ## Setup
 

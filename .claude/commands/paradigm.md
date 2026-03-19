@@ -95,7 +95,7 @@ Paradigm indexes your repository and builds a code graph in Neo4j:
 
 When you call `analyze_task`, it searches this graph — keyword matching + semantic search — scores results by relevance and connectivity, then computes the propagation map from the top matches. The output is deterministic: based on the actual code graph, not guesses.
 
-You can also explore the architecture visually at [app.useparadigm.app](https://app.useparadigm.app) — browse call graphs, module dependencies, and cross-system connections in the web UI.
+You can also explore the architecture visually at [useparadigm.app](https://useparadigm.app) — browse call graphs, module dependencies, and cross-system connections in the web UI.
 
 ## Setup
 
@@ -112,7 +112,7 @@ Add to your MCP configuration (`.mcp.json` in project root):
 }
 ```
 
-Sign up at [app.useparadigm.app](https://app.useparadigm.app), then index your repo:
+Sign up at [useparadigm.app](https://useparadigm.app), then index your repo:
 
 ```
 > Use paradigm to index my repo: your-org/your-repo
